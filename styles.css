@@ -11,12 +11,14 @@ body {
 #gallery {
 	width:548px;
 	margin:10px auto;
+
 }
 
 .photo {
 	display: inline-block;
 	margin:30px;
 	padding:10px;
+	/*background-color: black;*/
 }
 
 .photo:nth-child(1n) {
@@ -30,4 +32,8 @@ body {
 a {
 	text-decoration: none;
 	font-size: 12px;
+}
+
+.highlight {
+	background-color: yellow;
 }
